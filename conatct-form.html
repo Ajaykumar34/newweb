@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with CAPTCHA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Styles for the popup form */
+        .popup-form {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ccc;
+            z-index: 9999;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            width: 100%;
+        }
+
+        /* Styles for the overlay */
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 9998;
+        }
+    </style>
+</head>
+<div id="popmake-3628"
+    class="pum-container popmake theme-337 pum-responsive pum-responsive-large responsive size-large custom-position active"
+    style="min-width: 0%; max-width: 100%; top: 100.001px; left: 1839.19px; opacity: 1; display: block;">
+    <div class="pum-content popmake-content">
+        <div role="form" class="wpcf7" id="wpcf7-f5971-o1" lang="en-US" dir="ltr">
+            <div class="screen-reader-response">
+                <p role="status" aria-live="polite" aria-atomic="true"></p>
+                <ul></ul>
+            </div>
+            <form action="/#wpcf7-f5971-o1" method="post" class="wpcf7-form init theme_1 noErrorMsg"
+                novalidate="novalidate" data-status="init">
+                <div style="display: none;"> <input type="hidden" name="_wpcf7" value="5971"> <input type="hidden"
+                        name="_wpcf7_version" value="5.3.2"> <input type="hidden" name="_wpcf7_locale" value="en_US">
+                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5971-o1"> <input type="hidden"
+                        name="_wpcf7_container_post" value="0"> <input type="hidden" name="_wpcf7_posted_data_hash"
+                        value=""> <input type="hidden" name="_wpcf7_recaptcha_response" value=""></div>
+                <style>
+                    @media screen and (min-width:600px) {
+                        div.opo {
+                            position: absolute;
+                            left: initial;
+                            width: 100%;
+                            
+                        }
+
+                        div.opoa {
+                            position: absolute;
+                            left: 38%;
+                            width: 100%
+                        }
+
+                        div.opob {
+                            position: absolute;
+                            left: 60%;
+                            width: 100%
+                        }
+
+                        div.opoc {
+                            position: absolute;
+                            left: initial;
+                            width: 100%;
+                            
+                        }
+
+                        div.opod {
+                            position: absolute;
+                            left: 38%;
+                            width: 100%;
+                            
+                        }
+
+                        div.opoe {
+                            position: absolute;
+                            left: 60%;
+                            width: 100%;
+                         
+                        }
+                    }
+
+                    @media screen and (max-width:600px) {
+                        div.opo {
+                            left: 2%;
+                           
+                        }
+
+                        div.opoa {
+                            left: initial
+                        }
+
+                        div.opob {
+                            left: initial
+                        }
+
+                        div.opoc {
+                            left: initial;
+                           
+                        }
+
+                        div.opod {
+                            left: initial;
+                         
+                        }
+
+                        div.opoe {
+                            left: initial;
+                           
+                        }
+
+                    }
+                </style>
+                <fieldset>
+                    <legend>TELL US ABOUT YOU</legend>
+                    <ol>
+                        <div style=" margin-bottom: 15px; width:100% ;">
+                            <li>Your Name <span class="wpcf7-form-control-wrap text-481"><input type="text"
+                                        name="text-481" value="" size="40"
+                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required required"
+                                        aria-required="true" aria-invalid="false"></span></li>
+                        </div>
+                        <div style=" margin-bottom: 15px" width:100%="" ;="" ><li>Your Email <span class="
+                            wpcf7-form-control-wrap email-343"><input type="email" name="email-343" value="" size="40"
+                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email required email2"
+                                aria-required="true" aria-invalid="false"></span></li>
+                        </div>
+                        <div style=" margin-bottom: 15px; width:100% ; ">
+                            <li>Phone Number <span class="wpcf7-form-control-wrap your-tel"><input type="tel"
+                                        name="your-tel" value="" size="40" maxlength="15" minlength="10"
+                                        class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel required"
+                                        aria-required="true" aria-invalid="false"></span></li>
+                        </div>
+                        <div style=" margin-bottom: 15px; width:100% ; ">
+                            <li>Skype ID/Whatsapp No <span class="wpcf7-form-control-wrap text-837"><input type="text"
+                                        name="text-837" value="" size="40"
+                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required required"
+                                        aria-required="true" aria-invalid="false"></span></li>
+                        </div>
+                        <div style=" margin-bottom: 15px; width:100% ; ">
+                            <li>Country <span class="wpcf7-form-control-wrap text-796"><input type="text"
+                                        name="text-796" value="" size="40"
+                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required required"
+                                        aria-required="true" aria-invalid="false"></span></li>
+                        </div>
+                    </ol>
+                </fieldset>
+                <p> Use paragraphs for text that is not a form field.</p>
+                <fieldset>
+                    <legend>TELL US ABOUT YOUR PROJECT</legend>
+                    <ol>
+                        <li>What's Your Project All About? <span class="wpcf7-form-control-wrap text-932"><input
+                                    type="text" name="text-932" value="" size="40" class="wpcf7-form-control wpcf7-text"
+                                    aria-invalid="false"></span></li>
+                        <div style=" margin-bottom: 10px"></div>
+                        <li>What Are You Looking For?</li>
+                        <div class="opo">
+                            <li style="list-style: none;"><span class="wpcf7-form-control-wrap checkbox-891"><span
+                                        class="wpcf7-form-control wpcf7-checkbox"><span
+                                            class="wpcf7-list-item first last"><input type="checkbox"
+                                                name="checkbox-891[]" value="Enterprise Software Solutions"><span
+                                                class="wpcf7-list-item-label">Enterprise Software
+                                                Solutions</span></span></span></span></li>
+                        </div>
+                        <div class="opoa">
+                            <li style="list-style: none;"><span class="wpcf7-form-control-wrap checkbox-891"><span
+                                        class="wpcf7-form-control wpcf7-checkbox"><span
+                                            class="wpcf7-list-item first last"><input type="checkbox"
+                                                name="checkbox-891[]" value="Creating a Mobile App"><span
+                                                class="wpcf7-list-item-label">Creating a Mobile
+                                                App</span></span></span></span></li>
+                        </div>
+                        <div class="opob">
+                            <li style="list-style: none;"><span class="wpcf7-form-control-wrap checkbox-891"><span
+                                        class="wpcf7-form-control wpcf7-checkbox"><span
+                                            class="wpcf7-list-item first last"><input type="checkbox"
+                                                name="checkbox-891[]" value="Web Development"><span
+                                                class="wpcf7-list-item-label">Web
+                                                Development</span></span></span></span></li>
+                        </div>
+                        <div style=" margin-bottom: 3%; "></div>
+                        <div class="opoc">
+                            <li style="list-style: none;"><span class="wpcf7-form-control-wrap checkbox-891"><span
+                                        class="wpcf7-form-control wpcf7-checkbox"><span
+                                            class="wpcf7-list-item first last"><input type="checkbox"
+                                                name="checkbox-891[]" value="Dedicated Team Service"><span
+                                                class="wpcf7-list-item-label">Dedicated Team
+                                                Service</span></span></span></span></li>
+                        </div>
+                        <div class="opod">
+                            <li style="list-style: none;"><span class="wpcf7-form-control-wrap checkbox-891"><span
+                                        class="wpcf7-form-control wpcf7-checkbox"><span
+                                            class="wpcf7-list-item first last"><input type="checkbox"
+                                                name="checkbox-891[]" value="IT Consulting Services"><span
+                                                class="wpcf7-list-item-label">IT Consulting
+                                                Services</span></span></span></span></li>
+                        </div>
+                        <div class="opoe">
+                            <li style="list-style: none;"><span class="wpcf7-form-control-wrap checkbox-891"><span
+                                        class="wpcf7-form-control wpcf7-checkbox"><span
+                                            class="wpcf7-list-item first last"><input type="checkbox"
+                                                name="checkbox-891[]" value="Partnership Opportunities"><span
+                                                class="wpcf7-list-item-label">Partnership
+                                                Opportunities</span></span></span></span></li>
+                        </div>
+                        <div style="margin-bottom: 80px;"></div>
+                    </ol>
+                </fieldset>
+                <div style="margin-bottom: 10px;"></div>
+                <div style=" position:absolute;left:15%;width: 30%;">
+                    <div class="wpcf7-form-control-wrap">
+                        <div data-sitekey="6LcFPOUUAAAAAJ_F4EFU3cFyjIUYFhR7UC-8AC6a"
+                            class="wpcf7-form-control g-recaptcha wpcf7-recaptcha">
+                            <div style="width: 304px; height: 78px;">
+                                <div><iframe title="reCAPTCHA" width="304" height="78" role="presentation"
+                                        name="a-he5iblpzbbnb" frameborder="0" scrolling="no"
+                                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                                        src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcFPOUUAAAAAJ_F4EFU3cFyjIUYFhR7UC-8AC6a&amp;co=aHR0cHM6Ly90ZWNoeWFyZHNvZnQuY29tOjQ0Mw..&amp;hl=en&amp;v=x5WWoE57Fv0d6ATKsLDIAKnt&amp;size=normal&amp;cb=59tqupvehw26"></iframe>
+                                </div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response"
+                                    class="g-recaptcha-response"
+                                    style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                            </div><iframe style="display: none;"></iframe>
+                        </div> <noscript>
+                            <div class="grecaptcha-noscript"> <iframe
+                                    src="https://www.google.com/recaptcha/api/fallback?k=6LcFPOUUAAAAAJ_F4EFU3cFyjIUYFhR7UC-8AC6a"
+                                    frameborder="0" scrolling="no" width="310" height="430"> </iframe><textarea
+                                    name="g-recaptcha-response" rows="3" cols="40"
+                                    placeholder="reCaptcha Response Here">
+		</textarea></div>
+                        </noscript>
+                    </div>
+                </div>
+                <div style="position: relative;left: 44%; width: 30%;">
+                    <li style=" list-style: none;"><input type="submit" value="Submit"
+                            class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></li>
+                </div>
+                <div style="margin-bottom: 5%;"></div>
+                <p>
+            </p >
+<p>// define the wpcf7_is_tel callback 
+function custom_filter_wpcf7_is_tel( $result, $tel ) { 
+  $result = preg_match( '/^(?+?([0-9]{1,4})?)?[-. ]?(d{10})$/', $tel );
+  return $result; 
+}</p>
+<p>add_filter( 'wpcf7_is_tel', 'custom_filter_wpcf7_is_tel', 10, 2 );</script>
+                </p> <input type="hidden" class="wpcf7-pum"
+                    value="{&quot;closepopup&quot;:false,&quot;closedelay&quot;:0,&quot;openpopup&quot;:false,&quot;openpopup_id&quot;:0}">
+                <div class="wpcf7-response-output" aria-hidden="true"></div><input type="hidden"
+                    name="pum_form_popup_id" value="3628">
+            </form>
+        </div>
+    </div><button type="button" class="pum-close popmake-close" aria-label="Close"> × </button>
+</div>
+
+</body>
+
+</html>
